@@ -1,3 +1,87 @@
-h1{
-  font-family: 'montserrat';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat';
+}
+header{
+  height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/InDecor/img/hrz-5.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+.info-evento{
+  display: flex;
+  flex-direction: column;
+  
+}
+.logo h2{
+  color: #00baf2;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 3rem;
+ 
+}
+
+
+.titulo{
+  max-width: 350px;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.data-evento  {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+} 
+.dia-evento{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #00baf2;
+}
+.form{
+  background-color: #95989a;
+  padding: 1.8em;
+  max-width: 22%;
+}
+.form  p {
+  color: #000;
+  font-size: 1.3em;
+  margin-bottom: 1rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+ form label{
+  color: #5d5d5d;
+  font-weight: bold;
+}
+
+form input{
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+} 
+form select{
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  color: #5d5d5d;
+}
+button{
+  background-color: #00baf2;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem;
+  color: #fff;
 }
